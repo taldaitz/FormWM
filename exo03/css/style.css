@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/*Regles par Balise*/
+
+h1 {
+    color: crimson;
+    font-family: 'Russo One', sans-serif;
+    font-size: 38pt;
+    text-align: center;
+
+    margin : 30px;
+    border: solid 5px black;
+    padding: 50px
+}
+
+cite {
+    background-color: gray;
+    font-weight: bold;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Régles par classe*/
+
+.LienMenu {
+    background-color: black;
+    color: white;
+}
+
+.LienMenu:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: solid 1px black
+}
+
+.gris {
+    color: gray;
+}
+
+.ssligne {
+    text-decoration: underline;
+}
+
+.textPied {
+    font-size: 10pt;
+}
+
+/*Règles par Id*/
+
+#content {
+    text-align: justify;
+    padding: 10px 300px 10px 300px;
+}
+
+#content img:hover {
+    width: 400px;
+}
+
+#menu {
+    padding: 40px;
+}

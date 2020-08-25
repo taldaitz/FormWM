@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Les sudokus</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
 
-    <div>
+    <div id="header">
         <h1>Les sudokus</h1>
         <cite>Les sudokus c'est drolement bien.</cite>
     </div>
 
     <hr>
 
-    <div>
-        <a href="contact.html">Contact</a><br>
-        <a href="inscription.html">Inscription</a><br>
-        <a href="https://fr.wikipedia.org/wiki/Sudoku" target="_blank">En savoir Plus</a><br>
+    <div id="menu">
+        <a href="contact.html" class="LienMenu">Contact</a><br>
+        <a href="inscription.html" class="LienMenu">Inscription</a><br>
+        <a href="https://fr.wikipedia.org/wiki/Sudoku" target="_blank" class="LienMenu">En savoir Plus</a><br>
     </div>
 
     <hr>
 
-    <div>
-        <p>
+    <div id="content">
+        <p class="gris ssligne">
             Le nom sudoku (数独) est né de l’abréviation de la règle japonaise du jeu « Sūji wa dokushin ni kagiru »
             (数字は独身に限る?), signifiant littéralement « chiffre (数字) limité (限る) à un seul (独身) » (sous-entendu par case,
             par ligne et par colonne). Cette abréviation associe les caractères Sū (数) chiffre et Doku (独) unique. Ce
@@ -37,13 +40,13 @@
             (anglais : Place numérale), ou encore par le mot « Nampure », plus court. Quelques éditeurs non japonais
             orthographient le titre « Su Doku ».
         </p>
-        <p>
+        <p class="ssligne">
             Dans l'hebdomadaire pour la jeunesse Le Petit Français illustré (numéro 7 du 13 avril 1889, p. 92), sous le
             titre général « Problèmes amusants » est proposé le jeu suivant : « Disposer les 9 chiffres, 1, 2, 3, 4, 5,
             6, 7, 8, 9, dans les 9 cases de la figure ci-dessous, de telle façon que le total des 3 chiffres de chaque
             ligne verticale, horizontale et diagonale soit égal à 15. »
         </p>
-        <p>
+        <p class="gris">
             Les chiffres ne sont utilisés que par convention, les relations arithmétiques entre eux ne servant pas (sauf
             dans la variante Killer Su Doku, voir ci-après). N’importe quel ensemble de signes distincts — lettres,
             formes, couleurs, symboles — peut être utilisé sans changer les règles du jeu. Dell Magazines, le premier à
@@ -62,13 +65,14 @@
 
     <hr>
 
-    <div>
+    <div id="footer" class="textPied">
         <p>
             Site réalisé par <a href="mailto:taldaitz@dawan.fr">Thomas</a>.
         </p>
         <p>
             Joignable au <a href="tel:+3360132938323">téléphone portable</a>
         </p>
+        <a href="#">Test</a>
     </div>
 
 </body>
