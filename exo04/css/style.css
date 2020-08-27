@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#bleu { background-color: lightskyblue;}
+#rouge { 
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+#vert { 
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#jaune { 
+    background-color: gold;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+

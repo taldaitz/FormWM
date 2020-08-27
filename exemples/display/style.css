@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: goldenrod;
+    display: inline-block;
+}
+
+span {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lightskyblue;
+    display: inline-block;
+}
+
+#div2 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#div4 {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
