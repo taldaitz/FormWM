@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 40pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    color: blue;
+}
+
+#cadre1 {
+    width: 600px;
+    margin: auto;
+    border: solid 1px black;
+    background: darkgoldenrod; 
+}
+
+#cadre2 {
+    border: solid 1px black;
+    background-color: teal;
+    padding: 5px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+}
+
+#lienDawan {
+    border: solid 1px black;
+    padding: 5px 10px 5px 10px;
+}
+
+#lienDawan:hover {
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+
+#showLien {
+    text-align: center;
+}
