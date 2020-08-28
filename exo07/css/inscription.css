@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+form {
+    border: 1px solid black;
+    margin: auto;
+    width: 600px;
+    padding: 40px;
+}
+
+table {
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+td {
+    padding: 5px 0 5px 0;
+}
+
+.rouge {
+    background-color: crimson;
+}
+
+#boutonSubmit {
+    float: right;
+}

@@ -9,7 +9,7 @@
     
     <h1>Formulaire</h1>
 
-    <form>
+    <form action="traitement.php">
         <p>
             <label>Nom : </label>
             <input name="nom" type="text"/>
@@ -18,6 +18,25 @@
         <p>
             <label>Prénom : </label>
             <input name="prenom" type="text"/>
+        </p>
+
+        <p>
+            <label>Civilité : </label><br>
+            <input type="radio" name="civilite" value="Mme"/> Mme<br>
+            <input type="radio" name="civilite" value="Mr"/> Mr <br>
+            <input type="radio" name="civilite" value="Dr"/> Dr <br>
+            <input type="radio" name="civilite" value="Msgr"/> Msgr <br>
+        </p>
+
+        <p>
+            <label>Ville</label>
+
+            <select name="ville">
+                <option>Lyon</option>
+                <option>Paris</option>
+                <option>Toulouse</option>
+                <option>Nantes</option>
+            </select>
         </p>
 
         <input type="submit" value="OK"/>

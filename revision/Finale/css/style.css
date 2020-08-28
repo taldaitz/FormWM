@@ -1,0 +1,46 @@
+h1 {
+    color: crimson;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45pt;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+table {
+    border: solid 1px black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: goldenrod;
+}
+
+.entete {
+    font-weight: bold;
+}
+
+.valeurs {
+    font-style: italic;
+}
+
+#paragraphes {
+    border: 1px black solid;
+    padding: 30px;
+    margin:30px 300px 30px 300px;
+    text-align: justify;
+}
+
+#image {
+    text-align: center;
+}
+
+#image img {
+    width: 300px;
+}
